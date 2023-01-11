@@ -86,12 +86,13 @@ function createContact() {
         contact.city = getInputValueById("#city");
         contact.zip = getInputValueById("#zip");
     } 
-    catch (e) 
+    catch (error) 
     {
-        console.log(e);
+        console.log(error);
     }
     alert(contact);
 }
+
 const getInputValueById = (id) => {
     let value = document.querySelector(id).value;
     return value;
