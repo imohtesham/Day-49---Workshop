@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: aqua;
+}
+.head-text{
+    text-align: left;
+    margin-left: 25%;
+    font:  sans-serif;
+    color: black;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.header{
+    padding: 15px;
+    background-color: black;
+}
+.headerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+.logo-content-img{
+    border: 0px solid ;
+}
+.addressText{
+    font: normal normal bold 20px/30px Address ;
+    font-family: "Address", sans-serif;
+    padding-left: 5px;
+    color: #008CFF;
+    text-transform: capitalize;
+}
+.bookText{
+    color:blue;
+}
+.formContent{
+    min-height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    margin: auto;
+}
+.form{
+    background: #008CFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px ;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 40px;
+    width: 60%;
+}
+.formHead{
+    font: normal normal bold 24px/37px Roboto;
+    font-family: 'Roboto', regular;
+    letter-spacing: 0px;
+    color: #fff;
+    text-transform: capitalize;
+    opacity: 20px;
+    padding: 10;
+    background-color: #008CFF;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 0;
+}
